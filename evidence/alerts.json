@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-11-12 04:05:58",
+    "severity": "HIGH",
+    "rule": "Unauthorized printer advertisement",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "details": "advertises ipp://172.18.0.1:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-12 04:05:58",
+    "severity": "MEDIUM",
+    "rule": "Malformed/unexpected browse packet",
+    "src": "172.18.0.1",
+    "dst": "172.18.0.2",
+    "details": "non-standard printer port: 9100"
+  },
+  {
+    "timestamp": "2026-11-12 04:05:58",
+    "severity": "HIGH",
+    "rule": "Suspicious IPP connection",
+    "src": "172.18.0.2",
+    "dst": "172.18.0.1:9100",
+    "details": "IPP request to unauthorized printer 172.18.0.1:9100; IPP request on non-standard port 9100"
+  }
+]

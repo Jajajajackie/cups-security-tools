@@ -1,0 +1,4 @@
+timestamp,severity,rule,src,dst,details
+2026-11-12 04:05:58,HIGH,Unauthorized printer advertisement,172.18.0.1,172.18.0.2,advertises ipp://172.18.0.1:9100/printers/EvilPrinter
+2026-11-12 04:05:58,MEDIUM,Malformed/unexpected browse packet,172.18.0.1,172.18.0.2,non-standard printer port: 9100
+2026-11-12 04:05:58,HIGH,Suspicious IPP connection,172.18.0.2,172.18.0.1:9100,IPP request to unauthorized printer 172.18.0.1:9100; IPP request on non-standard port 9100

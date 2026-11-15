@@ -43,7 +43,7 @@ This project implements two Scapy tools:
 | Attacker  | Kali Linux (tested in VirtualBox) |
 | Victim    | Vulhub `CVE-2024-47177` `cups-browsed` Docker container (cups-browsed 2.0.1) |
 | Lab network | Docker bridge `172.18.0.0/16` — attacker `172.18.0.1`, victim `172.18.0.2` |
-| Python    | 3.x |
+| Python    | 3.13.12 |
 | Packet analysis | Wireshark |
 | Privileges | root — the tools use raw sockets, so run them with `sudo` |
 
